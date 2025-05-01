@@ -6,4 +6,9 @@ def fibonacci():
     y = 1
     for i in range(50):
         print(x)
-        x,y = y,y+x
+        variable1 = y
+        variable2 = y+x
+        x=variable1
+        y=variable2
+
+fibonacci()
