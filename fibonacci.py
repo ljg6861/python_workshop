@@ -5,5 +5,5 @@ def fibonacci():
     x = 0
     y = 1
     for i in range(50):
-        print(z)
+        print(x)
         x,y = y,y+x
